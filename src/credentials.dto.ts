@@ -4,5 +4,5 @@ export class SaveUserCredentialsDto {
   readonly id: number;
   @IsString() readonly email: string;
   @IsString() readonly password: string;
-  readonly frontendData: string;
+  @IsString() readonly frontendData: string;
 }

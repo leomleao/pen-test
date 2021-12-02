@@ -13,5 +13,4 @@ export class Credentials {
 
    @Column()
   frontendData: string;
-
 }

